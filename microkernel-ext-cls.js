@@ -28,7 +28,7 @@ const CLS = require("continuation-local-storage")
 /*  the Microkernel extension procedure  */
 const Extension = (kernel) => {
     /*  create a continuation-local-storage (CLS) namespace  */
-    let ns = CLS.createNamespace("microkernel")
+    const ns = CLS.createNamespace("microkernel")
     kernel.rs("cls", ns)
 
     /*  provide wrapper services for lazy creation of new CLS contexts  */
