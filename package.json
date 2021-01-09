@@ -1,6 +1,6 @@
 {
     "name":        "microkernel-ext-cls",
-    "version":     "0.9.6",
+    "version":     "0.9.7",
     "description": "Microkernel extension procedure for Continuation Local Storage (CLS)",
     "keywords": [
         "microkernel", "extension", "continuation", "local", "storage"
